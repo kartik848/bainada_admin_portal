@@ -8906,7 +8906,7 @@ this.b=b},
 n6:function n6(a,b,c){var _=this
 _.a=a
 _.b=b
-_.r=_.e=_.d=_.c=null
+_.r=_.f=_.e=_.d=_.c=null
 _.w=!0
 _.x=null
 _.ai$=0
@@ -56839,8 +56839,8 @@ $S:586}
 A.j8.prototype={
 F(){return"UserRole."+this.b}}
 A.db.prototype={
-hu(){var s=this,r=s.b,q=s.ax,p=s.k1
-return A.ac(["uid",s.a,"name",r,"ownerName",r,"phone",s.c,"email",s.d,"role",A.bqE(s.e),"shopName",s.f,"gstin",s.r,"address",s.w,"landmark",s.x,"city",s.y,"state",s.z,"addedBySalesmanId",s.Q,"addedBySalesmanName",s.as,"creditLimit",s.at,"outstandingDue",q,"khataBalance",q,"minOrderLimit",s.ay,"commissionRate",s.ch,"dailyTarget",s.CW,"vehicleNumber",s.cx,"licenseNumber",s.cy,"pendingCashInHand",s.db,"totalCashSettled",s.dx,"latitude",s.dy,"longitude",s.fr,"locationAddress",s.fx,"profileImageUrl",s.fy,"isApproved",s.go,"isActive",s.id,"createdAt",A.Na(1000*p.a+p.b)],t.N,t.z)},
+hu(){var s=this,r=s.b,q=s.Q,p=s.ax,o=s.k1
+return A.ac(["uid",s.a,"name",r,"ownerName",r,"phone",s.c,"email",s.d,"role",A.bqE(s.e),"shopName",s.f,"gstin",s.r,"address",s.w,"landmark",s.x,"city",s.y,"state",s.z,"addedBySalesmanId",q,"addedBySalesmanName",s.as,"assignedSalesmanId",q,"salesmanId",q,"creditLimit",s.at,"outstandingDue",p,"khataBalance",p,"minOrderLimit",s.ay,"commissionRate",s.ch,"dailyTarget",s.CW,"vehicleNumber",s.cx,"licenseNumber",s.cy,"pendingCashInHand",s.db,"totalCashSettled",s.dx,"latitude",s.dy,"longitude",s.fr,"locationAddress",s.fx,"profileImageUrl",s.fy,"isApproved",s.go,"isActive",s.id,"createdAt",A.Na(1000*o.a+o.b)],t.N,t.z)},
 AF(a,b,c,d,e,f,g,h){var s=this,r=h==null?s.a:h,q=c==null?s.d:c,p=b==null?s.at:b,o=f==null?s.ay:f,n=a==null?s.ch:a,m=g==null?s.fy:g,l=e==null?s.go:e,k=d==null?s.id:d
 return A.aFs(s.Q,s.as,s.w,s.y,n,s.k1,p,s.CW,q,s.r,k,l,s.x,s.dy,s.cy,s.fx,s.fr,o,s.b,s.ax,s.db,s.c,m,s.e,s.f,s.z,s.dx,r,s.cx)},
 aG3(a){var s=null
@@ -57068,7 +57068,7 @@ s=5
 break
 case 2:s=1
 break
-case 5:o.r=null
+case 5:o.f=o.r=null
 o.w=!1
 o.a2()
 return A.v(null,r)
@@ -57090,6 +57090,7 @@ $1(a){this.a.a2()},
 $S:37}
 A.afo.prototype={
 $1(a){var s,r=this.a
+r.f=a
 if(a!=null)r.aBR(a.a.c.a.a)
 else{s=r.d
 if(s!=null)s.aV()
